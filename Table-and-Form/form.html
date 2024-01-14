@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="reg-form">
+      <h6 class="heading-reg">Student Regisration Form</h6>
+      <form action="" method="get">
+        <label for="fname">First Name: </label>
+        <input type="text" name="fname" id="fname" />
+        <br />
+        <label for="lname">Last Name: </label>
+        <input type="text" name="lname" id="lname" />
+        <br />
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" />
+        <br />
+        <label for="mobile">Mobile: </label>
+        <input type="text" name="mobile" id="mobile">
+        <br>
+        <label for="dob">Date of Birth: </label>
+        <input type="date" name="dob" id="dob">
+        <br>
+        <label for="addres">Address: </label>
+        <!-- <input type="text" name="address" id="address"> -->
+        <textarea name="addres" id="addres" cols="30" rows="10"></textarea>
+        <br>
+        <label for="city">City: </label>
+        <input type="text" name="city" id="city">
+        <br>
+        <label for="apin">Area PIN: </label>
+        <input type="number" name="apin" id="apin">
+        <br>
+        <label for="state">State: </label>
+        <input type="text" name="state" id="state">
+        <br>
+        <label for="qaulification">Qualification: </label>
+        <!-- <input type="text" name="qaulification" id="Qualification"> -->
+        <select name="qaulification" id="">
+            <option value="-select qua-">Select Qualification</option>
+            <option value="matric">Matric</option>
+            <option value="Inter">Intermediate</option>
+            <option value="BS">BS</option>
+        </select>
+        <br>
+        <label for="special">Specializaion: </label>
+        <input type="checkbox" name="special" id="special"> Computer Science
+        <input type="checkbox" name="special" id="special"> Information Technology
+        <input type="checkbox" name="special" id="special"> Computer Architecture
+        <input type="checkbox" name="special" id="special"> Tele Communication
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password">
+        <br>
+        <button type="submit">Registered</button>
+      </form>
+    </div>
+  </body>
+</html>
