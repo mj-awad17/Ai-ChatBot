@@ -4,58 +4,112 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <div class="reg-form">
-      <h6 class="heading-reg">Student Regisration Form</h6>
-      <form action="" method="get">
-        <label for="fname">First Name: </label>
-        <input type="text" name="fname" id="fname" />
-        <br />
-        <label for="lname">Last Name: </label>
-        <input type="text" name="lname" id="lname" />
-        <br />
-        <label for="email">Email: </label>
-        <input type="email" name="email" id="email" />
-        <br />
-        <label for="mobile">Mobile: </label>
-        <input type="text" name="mobile" id="mobile">
-        <br>
-        <label for="dob">Date of Birth: </label>
-        <input type="date" name="dob" id="dob">
-        <br>
-        <label for="addres">Address: </label>
-        <!-- <input type="text" name="address" id="address"> -->
-        <textarea name="addres" id="addres" cols="30" rows="10"></textarea>
-        <br>
-        <label for="city">City: </label>
-        <input type="text" name="city" id="city">
-        <br>
-        <label for="apin">Area PIN: </label>
-        <input type="number" name="apin" id="apin">
-        <br>
-        <label for="state">State: </label>
-        <input type="text" name="state" id="state">
-        <br>
-        <label for="qaulification">Qualification: </label>
-        <!-- <input type="text" name="qaulification" id="Qualification"> -->
-        <select name="qaulification" id="">
-            <option value="-select qua-">Select Qualification</option>
+    <div id="reg-form">
+      <h3 class="heading-reg"><u>Student Regisration Form</u></h3>
+      <form action="" method="get" id="form">
+        <div id="fname">
+          <label for="fname">First Name: </label>
+          <input
+            type="text"
+            name="fname"
+            id="fname"
+            placeholder="Enter your first name"
+          />
+        </div>
+
+        <div id="lname">
+          <label for="lname">Last Name: </label>
+          <input
+            type="text"
+            name="lname"
+            id="lname"
+            placeholder="Enter your last name"
+          />
+        </div>
+
+        <div id="email">
+          <label for="email">Email: </label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="it should contain @"
+          />
+        </div>
+
+        <div id="mobile">
+          <label for="mobile">Mobile: </label>
+          <input
+            type="text"
+            name="mobile"
+            id="mobile"
+            placeholder="only 10 digits allowed"
+          />
+        </div>
+
+        <div id="gender">
+          <label for="gender" class="gender">Gender: </label>
+          <span
+            ><input type="radio" name="gender" /> Male &nbsp;&nbsp;
+            <input type="radio" name="gender" /> Female</span
+          >
+        </div>
+
+        <div id="dob">
+          <label for="dob" class="dob">Date of Birth: </label>
+          <input type="date" name="dob" id="dob" />
+        </div>
+
+        <div id="address">
+          <label for="addres" class="address">Address: </label>
+          <!-- <input type="text" name="address" id="address"> -->
+          <textarea name="addres" id="addres" cols="30" rows="10"></textarea>
+        </div>
+
+        <div id="city">
+          <label for="city">City: </label>
+          <input type="text" name="city" id="city" />
+        </div>
+
+        <div id="apin">
+          <label for="apin" class="city">Aera PIN: </label>
+          <input type="text" name="apin" id="apin" />
+        </div>
+
+        <div id="state">
+          <label for="state" class="state">State: </label>
+          <input type="text" name="state" id="state" />
+        </div>
+
+        <div id="quali">
+          <label for="qaulification">Qualification: </label>
+          <select name="qaulification">
+            <option value="-select qual-">Select Qualification</option>
             <option value="matric">Matric</option>
             <option value="Inter">Intermediate</option>
             <option value="BS">BS</option>
-        </select>
-        <br>
-        <label for="special">Specializaion: </label>
-        <input type="checkbox" name="special" id="special"> Computer Science
-        <input type="checkbox" name="special" id="special"> Information Technology
-        <input type="checkbox" name="special" id="special"> Computer Architecture
-        <input type="checkbox" name="special" id="special"> Tele Communication
-        <br>
-        <label for="password">Password:</label>
-        <input type="password" name="password" id="password">
-        <br>
-        <button type="submit">Registered</button>
+          </select>
+        </div>
+
+        <div id="special">
+          <label for="special">Specializaion: </label>
+          <input type="checkbox" name="special"/> Computer Science &nbsp;&nbsp;
+          <input type="checkbox" name="special"/> Information Technology &nbsp;&nbsp;
+          <input type="checkbox" name="special"/> Computer Architecture &nbsp;&nbsp;
+
+          <input type="checkbox" name="special"/> Tele Communication
+        </div>
+
+        <div id="password">
+          <label for="password">Password:</label>
+          <input type="password" name="password" id="password" />
+        </div>
+        <br />
+
+        <button type="submit" id="submit">Registered</button>
       </form>
     </div>
   </body>
