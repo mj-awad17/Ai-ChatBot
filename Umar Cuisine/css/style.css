@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+#text-logo > img {
+  width: auto;
+  height: 90px;
+  margin: 16px 0;
+}
+
+.index-images > img {
+  width: 350px;
+  height: 300px;
+  margin-right: 10px;
+  border-radius: 2%;
+  outline: 1px solid black;
+  border: 10px solid blanchedalmond;
+}
+
+/* navigator */
+#links {
+  margin: 20px 0;
+}
+
+#links > a{
+  /* background-color: red; */
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 25px;
+  padding: 20px 20px;
+}
+
+#links > a:hover{
+  color: brown;
+  background-color: rgba(128, 128, 128, 0.505);
+  border-radius: 5px;
+}
+
+/* heading-1-2 */
+.title,
+.title-des {
+  margin: 18px 0;
+}
+
+.text {
+  font-size: 16.5px;
+}
+
+.copy,
+.text {
+  padding: 10px 0;
+}
+
+/* Timings */
+table {
+  display: inline-flex;
+  margin-bottom: 10px;
+}
+th {
+  padding: 0 40px;
+}
+td {
+  padding-right: 40px;
+  text-align: left;
+}
+
+/* contact */
+textarea {
+  text-align: left;
+}
+button {
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+button > a{
+  /* background-color: red; */
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+
+/* menu */
+.food {
+  margin: 15px 0;
+}
+
+.burger-img > img,
+.piza-img > img {
+  height: 130px;
+  border-radius: 10px;
+  outline: 1px solid black;
+}
