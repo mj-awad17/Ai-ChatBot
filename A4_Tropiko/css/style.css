@@ -368,7 +368,7 @@ a > span {
   text-transform: capitalize;
   font-weight: bolder;
   font-size: 35px;
-  margin-left: 30px;
+  /* margin-left: 0; */
   /* padding: 20px; */
 }
 
@@ -381,7 +381,7 @@ a > span {
   border-radius: 4px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  margin: 50px 0 20px 30px;
+  margin: 50px 0 20px 0;
 }
 
 input[type="text"],
@@ -389,7 +389,7 @@ input[type="email"],
 input[type="tel"] {
   display: block;
   padding: 30px 400px 2px 10px;
-  margin: 10px 0 0 30px;
+  margin: 10px 0 0 0;
   border: none;
   border-bottom: 1px solid black;
 }
@@ -407,4 +407,73 @@ input[type="tel"] {
 }
 .dish img {
   float: right;
+}
+/* footer */
+footer {
+  height: 45vh;
+  /* padding-bottom: 300px; */
+  /* background-color: white; */
+  /* padding-left: 20px; */
+}
+footer h6 {
+  font-size: 18px;
+  /* padding-left: 20px; */
+  text-transform: capitalize;
+  font-weight: 500;
+  margin: 20px 0;
+}
+.c1,
+.c2,
+.c3,
+.c4 {
+  width: 25%;
+  float: left;
+  padding: 0 50px 40px 50px;
+}
+.c1 span,
+.c2 span,
+.c3 span,
+.c4 span {
+  display: block;
+  padding-bottom: 5px;
+}
+.c4 img {
+  width: auto;
+  /* height: 20px; */
+  padding: 0 5px 10px 0;
+}
+
+.c4 p {
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 0 0 10px 0;
+}
+.pd{
+  display: block;
+  padding: 5px 45px;
+  margin: 5px 0;
+}
+.c4 button{
+  background-color: orangered;
+  color: white;
+  border: none;
+  font-size: 18px;
+  text-transform: capitalize;
+  padding: 5px 30px;
+  margin: 10px 0 0 0;
+  border-radius: 2px;
+}
+
+.c4 img:hover, .c4 button:hover{
+  cursor: pointer;
+}
+
+.copyright {
+  padding: 20px 0;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: lightgrey;
+  color: black;
+  font-weight: 400;
 }
